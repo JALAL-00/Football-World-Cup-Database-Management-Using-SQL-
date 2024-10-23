@@ -1,15 +1,86 @@
-A FIFA Football World Cup management system includes
-Teams (ID, Name, Rank), 
-each with Team_Stats (Matches Played, Wins, Losses, Draws). 
-Teams play Matches (ID, Team1, Team2, Winner, Loser, Date, Stadium ID, Referee ID).
-Stadiums (ID, Name, Location, Total Matches, Capacity) host matches.
-Referees (ID, Name, Age, Matches, Country) and Coaches (ID, Team ID, Name) are assigned.
-Teams have Players (ID, Name, Team ID, Age, Jersey Number), Captains (ID, Team ID, Years of Captaincy),
-and Player_Stats (ID, Team ID, Goals, Assists, Matches Played, Fouls). 
-Players have Specialities (ID, Position, Skill).
+FIFA Football World Cup Management System
 
+This project is a Database Management System (DBMS) implementation for managing FIFA Football World Cup data. It includes comprehensive information about teams, players, matches, referees, and stadiums. The system tracks team performance, match outcomes, and individual player statistics, among other essential details.
 
+Key Components
 
+Teams
 
+	•	Attributes:
+	•	ID
+	•	Name
+	•	Rank
+	•	Team Stats:
+	•	Matches Played
+	•	Wins
+	•	Losses
+	•	Draws
 
+Matches
 
+	•	Attributes:
+	•	ID
+	•	Team1 (ID)
+	•	Team2 (ID)
+	•	Winner (Team ID)
+	•	Loser (Team ID)
+	•	Date
+	•	Stadium ID
+	•	Referee ID
+
+Stadiums
+
+	•	Attributes:
+	•	ID
+	•	Name
+	•	Location
+	•	Total Matches
+	•	Capacity
+
+Referees
+
+	•	Attributes:
+	•	ID
+	•	Name
+	•	Age
+	•	Matches (Officiated)
+	•	Country
+
+Coaches
+
+	•	Attributes:
+	•	ID
+	•	Team ID
+	•	Name
+
+Players
+
+	•	Attributes:
+	•	ID
+	•	Name
+	•	Team ID
+	•	Age
+	•	Jersey Number
+	•	Captains:
+	•	ID
+	•	Team ID
+	•	Years of Captaincy
+
+Player Stats
+
+	•	Attributes:
+	•	ID
+	•	Team ID
+	•	Goals
+	•	Assists
+	•	Matches Played
+	•	Fouls
+
+Player Specialities
+
+	•	Attributes:
+	•	ID
+	•	Position
+	•	Skill
+
+This project showcases the application of a relational database to manage and query FIFA World Cup data effectively.
